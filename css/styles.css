@@ -1,0 +1,122 @@
+body{
+    text-align:center;    
+    margin: 0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #345580;
+    overflow: hidden;
+    width: fit-content;
+    margin: 0 0 0 auto;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.top-container{
+    background-image: url('theme_background.jpg');
+    font-family: 'Merriweather', serif;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.first-video{
+    position:absolute;
+    top: 50px;
+    bottom: 50px;
+    right: 300px;
+}
+
+.newbie{
+    text-decoration:underline;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    width: 100%;
+    margin: 5 auto 5 auto;
+    color: white;
+    font-weight:bolder;
+}
+
+.profile{
+    padding: 30px;
+    background-image: url('foravtpart.jpg');
+}
+.par-style{
+    font-family: 'Merriweather', serif;
+    color: #90AACB;
+}
+
+.skills{
+    padding: 30px;
+    background-image: url('foravtpart.jpg');
+}
+
+.self-learning{
+    font-family: 'Merriweather', serif;
+}
+
+.contact-me{
+    background-image: url('theme_background.jpg');
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+.btn {
+    background: #11CCD4;
+    background-image: -webkit-linear-gradient(top, #11CCD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CCD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CCD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CCD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CCD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+  }
+
+  .footer-link{
+    color:#345580;
+    font-family: 'Merriweather', serif;
+    padding-top: 10px;
+    margin:10px 10px;
+    text-decoration: underline;
+    font-size: 20px;
+  }
